@@ -23,9 +23,9 @@ public class RefactorAssignmentTest {
     public void veryHigh(){
         assertEquals(106400, insuranceFor(100_000), 0.01);
     }
-    
+
     private double insuranceFor(double income){
-        return new RefactorAssignment().calculateInsurancce(income);
+        return new RefactorAssignment().calculateInsurance(income);
     }
 
 
